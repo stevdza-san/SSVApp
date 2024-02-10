@@ -6,7 +6,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "ssvapp"
+rootProject.name = "SSVAapp"
 
 include(":site")
 

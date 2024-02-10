@@ -2,6 +2,8 @@
 jetbrains-compose = "1.5.11"
 kobweb = "0.16.0"
 kotlin = "1.9.21"
+tink-java = "1.10.0"
+mongodb-kotlin = "4.11.0"
 
 [libraries]
 kobweb-api = { module = "com.varabyte.kobweb:kobweb-api", version.ref = "kobweb" }
@@ -12,6 +14,8 @@ kobwebx-markdown = { module = "com.varabyte.kobwebx:kobwebx-markdown", version.r
 silk-foundation = { module = "com.varabyte.kobweb:silk-foundation", version.ref = "kobweb" }
 silk-icons-fa = { module = "com.varabyte.kobwebx:silk-icons-fa", version.ref = "kobweb" }
 silk-icons-mdi = { module = "com.varabyte.kobwebx:silk-icons-mdi", version.ref = "kobweb" }
+crypto-tink = { module = "com.google.crypto.tink:apps-rewardedads", version.ref = "tink-java" }
+mongodb-kotlin-driver = { module = "org.mongodb:mongodb-driver-kotlin-coroutine", version.ref = "mongodb-kotlin" }
 
 [plugins]
 jetbrains-compose = { id = "org.jetbrains.compose", version.ref = "jetbrains-compose" }
